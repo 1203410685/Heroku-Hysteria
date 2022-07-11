@@ -177,8 +177,8 @@ EOF
 
 sysctl -w net.core.rmem_max=8000000
 sysctl -p
-netfilter-persistent save
-netfilter-persistent reload
+#netfilter-persistent save
+#netfilter-persistent reload
 chmod 644 /etc/systemd/system/hysteria.service
 #systemctl daemon-reload
 #systemctl enable hysteria
