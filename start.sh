@@ -7,6 +7,7 @@ version=`wget -qO- -t1 -T2 --no-check-certificate "https://api.github.com/repos/
 
 wget -q -O /etc/hysteria/hysteria --no-check-certificate https://github.com/HyNetwork/hysteria/releases/download/$version/hysteria-linux-amd64
 wget -q -O /etc/hysteria/acl/routes.acl --no-check-certificate https://raw.githubusercontent.com/emptysuns/Hi_Hysteria/main/acl/routes.acl
+wget -q -O /etc/hysteria/acl/Country.mmdb --no-check-certificate https://raw.githubusercontent.com/emptysuns/Hi_Hysteria/main/acl/Country.mmdb
 chmod 755 /etc/hysteria/hysteria
 
 delay=200
