@@ -85,8 +85,6 @@ cat <<EOF > config.json
 "password": "pekopeko"
 },
 "alpn": "h3",
-"acl": "acl/routes.acl",
-"mmdb": "acl/Country.mmdb",
 "auth_str": "$auth_str",
 "server_name": "$domain",
 "insecure": true,
@@ -147,8 +145,6 @@ cat <<EOF > config.json
 "password": "pekopeko"
 },
 "alpn": "h3",
-"acl": "acl/routes.acl",
-"mmdb": "acl/Country.mmdb",
 "auth_str": "$auth_str",
 "server_name": "$domain",
 "insecure": false,
