@@ -193,4 +193,4 @@ rm -rf ./crontab.tmp
 echo -e "\033[35m↓***********************************↓↓↓copy↓↓↓*******************************↓\033[0m"
 cat ./config.json
 echo -e "\033[35m↑***********************************↑↑↑copy↑↑↑*******************************↑\033[0m"
-./etc/hysteria/hysteria server
+./etc/hysteria/hysteria  -c /etc/hysteria/config.json server
