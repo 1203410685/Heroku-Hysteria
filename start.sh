@@ -88,4 +88,5 @@ cat <<EOF > config.json
 }
 EOF
 
+cat /etc/hysteria/wechat.com.ca.crt
 /etc/hysteria/hysteria  -c /etc/hysteria/config.json server
