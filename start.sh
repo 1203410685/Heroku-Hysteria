@@ -180,9 +180,9 @@ sysctl -p
 netfilter-persistent save
 netfilter-persistent reload
 chmod 644 /etc/systemd/system/hysteria.service
-systemctl daemon-reload
-systemctl enable hysteria
-systemctl start hysteria
+#systemctl daemon-reload
+#systemctl enable hysteria
+#systemctl start hysteria
 echo -e "\033[1;;35m\nwait...\n\033[0m"
 sleep 3
 status=`systemctl is-active hysteria`
