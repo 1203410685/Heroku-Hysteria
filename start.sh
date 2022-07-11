@@ -160,7 +160,7 @@ cat <<EOF > config.json
 EOF
 
 fi
-
+:<<!
 cat <<EOF >/etc/systemd/system/hysteria.service
 [Unit]
 Description=hysteria:Hello World!
@@ -191,7 +191,7 @@ crontab -l > ./crontab.tmp
 echo  "0 4 * * * systemctl restart hysteria" >> ./crontab.tmp
 crontab ./crontab.tmp
 rm -rf ./crontab.tmp
-
+!
 echo -e "\033[35m↓***********************************↓↓↓copy↓↓↓*******************************↓\033[0m"
 cat ./config.json
 echo -e "\033[35m↑***********************************↑↑↑copy↑↑↑*******************************↑\033[0m"
