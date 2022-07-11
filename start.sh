@@ -1,7 +1,7 @@
 #!/bin/sh
 export LANG=en_US.UTF-8
 
-port=55332
+port=443
 domain="wechat.com"
 download=100
 upload=100
